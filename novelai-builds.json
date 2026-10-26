@@ -1,0 +1,91 @@
+{
+  "kind": "nai-build-compatibility",
+  "schemaVersion": 1,
+  "revision": 20261026,
+  "auditedAt": "2026-10-26T01:00:00.000Z",
+  "families": [
+    {
+      "deployment": "32f2478-39929112768-1",
+      "editor": {
+        "adapter": "nai-controlled-editor@1",
+        "pins": {
+          "app": {
+            "file": "158ut52bya78p.js",
+            "sha256": "f8b8117eeaccb03de4f4d4a7e7388fcdd539f73be4188f3e68d988702b28a426"
+          },
+          "image": {
+            "file": "16ryr_o76sdzy.js",
+            "sha256": "7571793ed13081b7b03c66d3b23b0500e88019d9e2eefe00da50a30928727330"
+          },
+          "persistence": {
+            "file": "33ul2lw58_w11.js",
+            "sha256": "334fe5dd5ba29bfd8a69d2c356a69e6101918b308e8a438ee53acb5bf1026349"
+          },
+          "context": {
+            "file": "1e943u861145k.js",
+            "sha256": "43e6f97defdf90c2b996461289679eb8c46a3f181a4de87b0188d6a6f75c3670"
+          }
+        }
+      },
+      "downloader": {
+        "adapter": "nai-native-save@1",
+        "pins": {
+          "image": {
+            "file": "16ryr_o76sdzy.js",
+            "sha256": "7571793ed13081b7b03c66d3b23b0500e88019d9e2eefe00da50a30928727330"
+          },
+          "helper": {
+            "file": "2uzaqpy7or_8p.js",
+            "sha256": "f66766cc84a1b48b7380421915863210e4d1cbcca366a858b529d34e231445e3"
+          },
+          "persistence": {
+            "file": "33ul2lw58_w11.js",
+            "sha256": "334fe5dd5ba29bfd8a69d2c356a69e6101918b308e8a438ee53acb5bf1026349"
+          },
+          "context": {
+            "file": "1e943u861145k.js",
+            "sha256": "43e6f97defdf90c2b996461289679eb8c46a3f181a4de87b0188d6a6f75c3670"
+          },
+          "zip": {
+            "file": "21np_e3y2t4bu.js",
+            "sha256": "14bf2e69633947871cc16c4a8ea5c7f06c24ae0dc054532f4a084afa09bc9a7f"
+          },
+          "fileSaver": {
+            "file": "0agr23cq2h9dv.js",
+            "sha256": "a2cb16f01163fa3181e7a2ecba6019a2ec5379678c332784e49cad63b00d7629"
+          },
+          "tooltip": {
+            "file": "2riq06zhmbcs9.js",
+            "sha256": "fb142659d58ca7d45e94e3a3d11c8f6666577f338dd0f832b70a5fd37ca14e71"
+          },
+          "request": {
+            "file": "42wv5qb9evl5c.js",
+            "sha256": "b6b868a8b430f8992024f82f89221f4e16b5850a1cefafe4ab9d48815bc25f3f"
+          }
+        },
+        "automaticSites": [
+          {
+            "role": "helper",
+            "line": 1,
+            "column": 38818
+          },
+          {
+            "role": "context",
+            "line": 43,
+            "column": 118281
+          },
+          {
+            "role": "persistence",
+            "line": 1,
+            "column": 3496
+          },
+          {
+            "role": "image",
+            "line": 2550,
+            "column": 12784
+          }
+        ]
+      }
+    }
+  ]
+}
