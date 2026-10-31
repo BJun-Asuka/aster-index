@@ -1,8 +1,8 @@
 {
   "kind": "nai-build-compatibility",
   "schemaVersion": 1,
-  "revision": 20261026,
-  "auditedAt": "2026-10-26T01:00:00.000Z",
+  "revision": 20261031,
+  "auditedAt": "2026-10-31T06:54:09.505Z",
   "families": [
     {
       "deployment": "32f2478-39929112768-1",
@@ -83,6 +83,89 @@
             "role": "image",
             "line": 2550,
             "column": 12784
+          }
+        ]
+      }
+    },
+    {
+      "deployment": "6fb7f79-40608358333-1",
+      "editor": {
+        "adapter": "nai-controlled-editor@2",
+        "pins": {
+          "app": {
+            "file": "3u8i31t0vz6bd.js",
+            "sha256": "ab994a69e827f8d1b6127a32e203d50995b32c71dc1fb82a58c59fc82f492cdb"
+          },
+          "image": {
+            "file": "35np5iwst-km7.js",
+            "sha256": "b18a3e65579c9db9dc77ee79bacb6a10edc5dc2fdb5ce6ee05162ab7813a0598"
+          },
+          "persistence": {
+            "file": "22evx8_5gmu-c.js",
+            "sha256": "81878eb2b901067f47ec5541c24974267dd7676833cb33c555a551bc331bdf88"
+          },
+          "context": {
+            "file": "1tae-3ze2k-ak.js",
+            "sha256": "f1069333e1756e098afb64eb25440d8526d1b410d3e6e953e5650453616d702a"
+          }
+        }
+      },
+      "downloader": {
+        "adapter": "nai-native-save@2",
+        "pins": {
+          "image": {
+            "file": "35np5iwst-km7.js",
+            "sha256": "b18a3e65579c9db9dc77ee79bacb6a10edc5dc2fdb5ce6ee05162ab7813a0598"
+          },
+          "helper": {
+            "file": "2osws3kcz33xa.js",
+            "sha256": "d34a6dd4e3d5b28ea11e3f00501e45024d85fb57599d79a8942d44d889cca776"
+          },
+          "persistence": {
+            "file": "22evx8_5gmu-c.js",
+            "sha256": "81878eb2b901067f47ec5541c24974267dd7676833cb33c555a551bc331bdf88"
+          },
+          "context": {
+            "file": "1tae-3ze2k-ak.js",
+            "sha256": "f1069333e1756e098afb64eb25440d8526d1b410d3e6e953e5650453616d702a"
+          },
+          "zip": {
+            "file": "3s68obsa8c7gj.js",
+            "sha256": "f56f6bde21f5996948f314e470c07b69018171a4115ede4367afda62d4f861e2"
+          },
+          "fileSaver": {
+            "file": "1qukxspogti_i.js",
+            "sha256": "045d04f6750f29b856df4e28cd0347944fb32caaf5be3433e4094cd6def15b34"
+          },
+          "tooltip": {
+            "file": "3pspw6d3_xgeu.js",
+            "sha256": "0cb9d3dd569bac459a084160d6751bcd25742ca99df5f0c478e3ed0c950d3fdc"
+          },
+          "request": {
+            "file": "2qhfr6iicb3zg.js",
+            "sha256": "7e200073f82bf67ef664dc48f67108acf99d94c31129cfd97a7f94c2383987e4"
+          }
+        },
+        "automaticSites": [
+          {
+            "role": "helper",
+            "line": 1,
+            "column": 10658
+          },
+          {
+            "role": "context",
+            "line": 39,
+            "column": 118173
+          },
+          {
+            "role": "persistence",
+            "line": 1,
+            "column": 3508
+          },
+          {
+            "role": "image",
+            "line": 2550,
+            "column": 12785
           }
         ]
       }
