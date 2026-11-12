@@ -1,8 +1,8 @@
 {
   "kind": "nai-build-compatibility",
   "schemaVersion": 1,
-  "revision": 20261031,
-  "auditedAt": "2026-10-31T06:54:09.505Z",
+  "revision": 20261112,
+  "auditedAt": "2026-11-12T10:56:27.491Z",
   "families": [
     {
       "deployment": "32f2478-39929112768-1",
@@ -166,6 +166,68 @@
             "role": "image",
             "line": 2550,
             "column": 12785
+          }
+        ]
+      }
+    },
+    {
+      "deployment": "f928585-42924143505-1",
+      "downloader": {
+        "adapter": "nai-native-save@2",
+        "pins": {
+          "image": {
+            "file": "317dthws92jrr.js",
+            "sha256": "6107cc69d0c53bbaa30c54371098d1779adccbba29e9d81f24bebe1ba3241230"
+          },
+          "helper": {
+            "file": "2ql87ox8spb82.js",
+            "sha256": "73f84d17dc3aee7895cef94de8f011055bf0bb3fd5ace74159421b905b133479"
+          },
+          "persistence": {
+            "file": "274ff5q_u23hy.js",
+            "sha256": "875cacaec9486695b79aa3819f7191d4ef0f3752517336200aa67482468b6980"
+          },
+          "context": {
+            "file": "1qr-_uukhj8ho.js",
+            "sha256": "c86de7b60f86da1c96ecc8de60c5a7bace6aea750279733769997401d976196a"
+          },
+          "zip": {
+            "file": "0pl9_p_r7-vwt.js",
+            "sha256": "5a3d0ff1213e7d0e285b3cdeaf775a3af18b028131504dc36748960f62d3da34"
+          },
+          "fileSaver": {
+            "file": "2rq4ad8wjm6-4.js",
+            "sha256": "18ce1daa93476a4e10aad691ff1b12d346ce42d15a4f52e66b44fda25ca316e1"
+          },
+          "tooltip": {
+            "file": "0zdg729eujhe7.js",
+            "sha256": "5e3fe5ad67d70699f8686ec2e05f836f56e210d38dc46fe4276f3b8e31fb786f"
+          },
+          "request": {
+            "file": "0vm-a10r598mm.js",
+            "sha256": "439922ea9879ae9d5b4e4b147eb97bf3711e1356995b6b73c1ec450802c50515"
+          }
+        },
+        "automaticSites": [
+          {
+            "role": "helper",
+            "line": 1,
+            "column": 10194
+          },
+          {
+            "role": "context",
+            "line": 39,
+            "column": 117555
+          },
+          {
+            "role": "persistence",
+            "line": 1,
+            "column": 2974
+          },
+          {
+            "role": "image",
+            "line": 2550,
+            "column": 11175
           }
         ]
       }
