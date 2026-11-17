@@ -1,8 +1,8 @@
 {
   "kind": "nai-build-compatibility",
   "schemaVersion": 1,
-  "revision": 20261112,
-  "auditedAt": "2026-11-12T10:56:27.491Z",
+  "revision": 20261117,
+  "auditedAt": "2026-11-17T04:23:30.514Z",
   "families": [
     {
       "deployment": "32f2478-39929112768-1",
@@ -227,6 +227,68 @@
           {
             "role": "image",
             "line": 2550,
+            "column": 11175
+          }
+        ]
+      }
+    },
+    {
+      "deployment": "adc9438-production",
+      "downloader": {
+        "adapter": "nai-native-save@2",
+        "pins": {
+          "image": {
+            "file": "2laalea3awu3k.js",
+            "sha256": "2caae14892e36c85967a3e8b9b9771c6646aca85681de958e1c15563c3fa3d52"
+          },
+          "helper": {
+            "file": "2olp3ww2ubk42.js",
+            "sha256": "64868b592206410a0c8e8d81c8eb03d7be8b818a32d52a58fc6598d5844ec6e8"
+          },
+          "persistence": {
+            "file": "2gk65nl2bm8-4.js",
+            "sha256": "311c69db72807ae4663efa6feff9cc6154b6b02892ff75b88f36a68d8451cfbb"
+          },
+          "context": {
+            "file": "41n9-ni1soo00.js",
+            "sha256": "e8787ea78258a171576e1813c11548a32773de6d3ae1e633ff5a34e8f151d8a8"
+          },
+          "zip": {
+            "file": "039y55zd773h5.js",
+            "sha256": "75aff205e35d9bb5375f7e9b03a08b2d5c8fbe2abd2f15bef7e6cc55486e4a17"
+          },
+          "fileSaver": {
+            "file": "2h34nutq72d8r.js",
+            "sha256": "cdcc267392600ba5556d3c5b09c6c44a07969c3da44dc91184513654ed73eb70"
+          },
+          "tooltip": {
+            "file": "0zdg729eujhe7.js",
+            "sha256": "5e3fe5ad67d70699f8686ec2e05f836f56e210d38dc46fe4276f3b8e31fb786f"
+          },
+          "request": {
+            "file": "36juzcfi11xq3.js",
+            "sha256": "aa6391d795eed5178d84447a563c2695ea10b5fb2c6c4d10c1dcba2fd9a2e32e"
+          }
+        },
+        "automaticSites": [
+          {
+            "role": "helper",
+            "line": 1,
+            "column": 10275
+          },
+          {
+            "role": "context",
+            "line": 39,
+            "column": 120661
+          },
+          {
+            "role": "persistence",
+            "line": 1,
+            "column": 2974
+          },
+          {
+            "role": "image",
+            "line": 2604,
             "column": 11175
           }
         ]
